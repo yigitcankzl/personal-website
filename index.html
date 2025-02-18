@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yiğitcan Kızıl | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Yiğitcan Kızıl</div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-item">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#education" class="nav-item">Education</a>  
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Yiğitcan Kızıl</span></h1>
+                    <h2>Computer Science Student</h2>
+                    <p>Passionate about AI, mobile development, and machine learning</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="primary-btn">View My Work</a>
+                        <a href="#contact" class="secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/yigitcankzl" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/yigitcankzl/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:kizilyigit33@hotmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="profile-container">
+                    <img src="images/pp.jpg" alt="Yiğitcan Kızıl" class="profile-img">
+                    <div class="profile-social">
+                        <a href="https://github.com/yigitcankzl" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yi%C4%9Fitcan-k%C4%B1z%C4%B1l-89a536211/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:kizilyigit33@hotmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I'm a second-year Computer Science student at Hacettepe University with a passion for creating meaningful technology. My journey in tech is driven by curiosity and the desire to solve complex problems.</p>
+                    
+                    <h3>What I Do</h3>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h4><i class="fas fa-mobile-alt"></i> Mobile Development</h4>
+                            <p>Building responsive applications with Flutter and Ionic/Angular</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4><i class="fas fa-brain"></i> AI & Machine Learning</h4>
+                            <p>Working on image processing and deep learning projects</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4><i class="fas fa-code"></i> Algorithmic Problem Solving</h4>
+                            <p>Focusing on optimization techniques and efficient solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <h4><a href="https://www.hacettepe.edu.tr/english" target="_blank">Hacettepe University</a></h4>
+                        <ul class="timeline-details">
+                            <li>Maintaining strong academic performance in computer science fundamentals</li>
+                            <li>Focusing on artificial intelligence, machine learning, and mobile development</li>
+                            <li>Active participant in university's technology club and coding competitions</li>
+                            <li>Relevant coursework: Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 - 2022</div>
+                        <h3>High School Diploma</h3>
+                        <h4><a href="https://ial.meb.k12.tr/" target="_blank">Icel Anatolian High School</a></h4>
+                        <ul class="timeline-details">
+                            <li>Graduated with honors and a strong foundation in mathematics and science</li>
+                            <li>Participated in coding competitions and science fairs</li>
+                            <li>Developed a strong work ethic and passion for technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-company-logo">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Data Scientist and Artificial Intelligence Intern</h3>
+                            <h4><a href="https://www.inventra.ca/" target="_blank">Inventra - Canada</a></h4>
+                            <span class="experience-date">February 2025 - Present</span>
+                        </div>
+                    </div>
+                    <div class="experience-body">
+                        <ul class="experience-details">
+                            <li>Developing an advanced chatbot using natural language processing techniques</li>
+                            <li>Working on facial analysis through image processing methods</li>
+                            <li>Processing facial image datasets for improved recognition</li>
+                            <li>Continuously optimizing AI models to enhance user interactions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Technologies</h2>
+                <div class="underline"></div>
+                <p class="section-intro">Technologies and tools I work with</p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4><i class="fas fa-code"></i> Programming Languages</h4>
+                    <div class="skill-items">
+                        <span class="tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="tag"><i class="fas fa-code"></i> C++</span>
+                        <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="tag"><i class="fab fa-dart"></i> Dart</span>
+                    </div>
+                </div>
+    
+                <div class="skill-category">
+                    <h4><i class="fas fa-laptop-code"></i> Frameworks & Libraries</h4>
+                    <div class="skill-items">
+                        <span class="tag"><i class="fab fa-react"></i> React</span>
+                        <span class="tag"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="tag"><i class="fas fa-fire"></i> Flask</span>
+                        <span class="tag"><i class="fab fa-flutter"></i> Flutter</span>
+                        <span class="tag"><i class="fas fa-atom"></i> Electron</span>
+                    </div>
+                </div>
+    
+                <div class="skill-category">
+                    <h4><i class="fas fa-brain"></i> AI & Machine Learning</h4>
+                    <div class="skill-items">
+                        <span class="tag"><i class="fas fa-robot"></i> TensorFlow</span>
+                        <span class="tag"><i class="fas fa-fire"></i> PyTorch</span>
+                        <span class="tag"><i class="fas fa-chart-line"></i> Scikit-learn</span>
+                        <span class="tag"><i class="fas fa-chart-bar"></i> Seaborn</span>
+                        <span class="tag"><i class="fas fa-eye"></i> OpenCV</span>
+                    </div>
+                </div>
+    
+                <div class="skill-category">
+                    <h4><i class="fas fa-database"></i> Databases & Tools</h4>
+                    <div class="skill-items">
+                        <span class="tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="tag"><i class="fas fa-server"></i> Firebase</span>
+                        <span class="tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="tag"><i class="fab fa-linux"></i> Linux</span>
+                        <span class="tag"><i class="fab fa-android"></i> Android</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="underline"></div>
+                <p class="section-intro">Here are some of the projects I've worked on recently.</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                <button class="filter-btn" data-filter="algorithms">Algorithms</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <img src="images/brain-tumor-detection.jpg" alt="Brain Tumor Detection">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/brain-tumor-detection" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Brain Tumor Detection</h3>
+                        <p class="project-tags">
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">Image Classification</span>
+                        </p>
+                        <p class="project-desc">Built a deep learning model to classify brain tumors into four categories with 92.98% test accuracy.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <img src="images/breast-cancer-classification.jpg" alt="Breast Cancer Classification">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/breast-cancer-classification" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Breast Cancer Classification</h3>
+                        <p class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Classification</span>
+                            <span class="tag">Healthcare</span>
+                        </p>
+                        <p class="project-desc">ML solution to predict breast cancer malignancy using Logistic Regression, Random Forest, and SVM models.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <img src="images/car.jpg" alt="Car Tracking and Counting">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/car-tracking-counting" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Car Tracking and Counting</h3>
+                        <p class="project-tags">
+                            <span class="tag">YOLOv8</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Object Tracking</span>
+                        </p>
+                        <p class="project-desc">Real-time vehicle detection and tracking system using YOLOv8 and SORT algorithms.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="images/app.png" alt="Language Learning Application">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/app" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Language Learning App</h3>
+                        <p class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">AI Integration</span>
+                        </p>
+                        <p class="project-desc">Mobile app with Firebase auth, dynamic flashcards, and AI-powered quizzes using Gemini API.</p>
+                    </div>
+                </div>
+
+                <!-- High-Frequency Trading Bot -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/stock.png" alt="High-Frequency Trading Bot">
+                        <div class="project-links">
+                            <!-- No GitHub link provided -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">High-Frequency Trading Bot</h3>
+                        <p class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">Financial Trading</span>
+                        </p>
+                        <p class="project-desc">A trading bot in C++ that analyzes market data from multiple exchanges to capitalize on price differences within milliseconds.</p>
+                    </div>
+                </div>
+
+                <!-- ClearVision Defense -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/filter.png" alt="ClearVision Defense">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM203/tree/main/PA1" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ClearVision Defense</h3>
+                        <p class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Image Processing</span>
+                            <span class="tag">Steganography</span>
+                        </p>
+                        <p class="project-desc">Defense-oriented image processing implementing noise reduction filters, sharpening, and LSB steganography.</p>
+                    </div>
+                </div>
+
+                <!-- Hiragana and Katakana Study Website -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/japanese.png" alt="Hiragana and Katakana Study Website">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/japanese-alfabet-website" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Japanese Language Study Site</h3>
+                        <p class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </p>
+                        <p class="project-desc">Interactive website for learning Japanese writing systems with progress tracking and character group focus.</p>
+                    </div>
+                </div>
+
+                <!-- Cafeteria Meal Whatsapp Notifier -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/meal.png" alt="Cafeteria Meal Whatsapp Notifier">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/cafeteria-meal-bot" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Meal Notification Bot</h3>
+                        <p class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Twilio API</span>
+                            <span class="tag">XML Parsing</span>
+                        </p>
+                        <p class="project-desc">System that sends Hacettepe University's daily cafeteria menu to users via WhatsApp using Twilio.</p>
+                    </div>
+                </div>
+
+                <!-- Weather Forecast CLI -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/weather.png" alt="Weather Forecast CLI">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/weather-forecast-cli" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Forecast CLI</h3>
+                        <p class="project-tags">
+                            <span class="tag">CLI</span>
+                            <span class="tag">Open-Meteo API</span>
+                            <span class="tag">Data Visualization</span>
+                        </p>
+                        <p class="project-desc">Command-line tool that provides 7-day weather forecasts with descriptive emoji icons.</p>
+                    </div>
+                </div>
+
+                <!-- HU-Load Game -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/game.png" alt="HU-Load Game">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM104/tree/main/PA3" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HU-Load Mining Game</h3>
+                        <p class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">JavaFX</span>
+                            <span class="tag">Game Development</span>
+                        </p>
+                        <p class="project-desc">Mining game where players control a drill machine to collect minerals while managing resources.</p>
+                    </div>
+                </div>
+
+                <!-- Deepseek Desktop Application -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <img src="images/deepseek.png" alt="Deepseek Desktop Application">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/deepseek-desktop-application" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Deepseek Desktop App</h3>
+                        <p class="project-tags">
+                            <span class="tag">DeepSeek Model</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Desktop App</span>
+                        </p>
+                        <p class="project-desc">Cross-platform application leveraging DeepSeek Model 8B for advanced search on large datasets.</p>
+                    </div>
+                </div>
+
+                <!-- Asteroid Dash -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/dash.png" alt="Asteroid Dash">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM203/tree/main/PA2" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Asteroid Dash</h3>
+                        <p class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Game Development</span>
+                            <span class="tag">Linked Lists</span>
+                        </p>
+                        <p class="project-desc">Space adventure game with collision detection, asteroid shooting, and resource management.</p>
+                    </div>
+                </div>
+
+                <!-- Drone ALPHA Journey Through Türkiye -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/drone.png" alt="Drone ALPHA Journey Through Türkiye">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM203/tree/main/PA3" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Drone Navigation Simulation</h3>
+                        <p class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Stacks & Queues</span>
+                            <span class="tag">Route Planning</span>
+                        </p>
+                        <p class="project-desc">Simulation of an autonomous drone navigating through provinces with fuel constraints and priorities.</p>
+                    </div>
+                </div>
+
+                <!-- H.U.SLAND -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/island.png" alt="H.U.SLAND">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM203/tree/main/PA4" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">H.U.SLAND RPG Simulation</h3>
+                        <p class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Binary Trees</span>
+                            <span class="tag">AVL Trees</span>
+                        </p>
+                        <p class="project-desc">RPG simulation managing player rankings, duels, and item crafting using binary and AVL trees.</p>
+                    </div>
+                </div>
+
+                <!-- GYM Meal Machine -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/gym.png" alt="GYM Meal Machine">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM104/tree/main/PA1" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">GYM Meal Machine</h3>
+                        <p class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Nutrition</span>
+                            <span class="tag">Data Management</span>
+                        </p>
+                        <p class="project-desc">System for tracking and planning meals focused on fitness nutrition goals.</p>
+                    </div>
+                </div>
+
+                <!-- Bus Reservation System -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/bus.png" alt="Bus Reservation System">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM104/tree/main/PA2" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bus Reservation System</h3>
+                        <p class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Booking System</span>
+                            <span class="tag">OOP</span>
+                        </p>
+                        <p class="project-desc">Comprehensive system for managing bus routes, schedules, and passenger reservations.</p>
+                    </div>
+                </div>
+
+                <!-- Fastest Route Finder -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/map.png" alt="Fastest Route Finder">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM104/tree/main/PA4" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fastest Route Finder</h3>
+                        <p class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Graph Algorithms</span>
+                            <span class="tag">Path Finding</span>
+                        </p>
+                        <p class="project-desc">Application implementing graph traversal algorithms to find optimal routes between locations.</p>
+                    </div>
+                </div>
+
+                <!-- Sudoku Solver -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/sudoku.png" alt="Sudoku Solver">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM103/tree/main/BBM103/pa2" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sudoku Solver</h3>
+                        <p class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Backtracking</span>
+                            <span class="tag">Puzzle Solving</span>
+                        </p>
+                        <p class="project-desc">Implementation of a Sudoku puzzle solver using backtracking algorithm techniques.</p>
+                    </div>
+                </div>
+
+                <!-- Number Board Game -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/board.png" alt="Number Board Game">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM103/tree/main/BBM103/pa3" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Number Board Game</h3>
+                        <p class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Game Logic</span>
+                            <span class="tag">Algorithm Design</span>
+                        </p>
+                        <p class="project-desc">Strategic board game involving number placement and pattern recognition on a grid.</p>
+                    </div>
+                </div>
+
+                <!-- Blind Valley -->
+                <div class="project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="images/blind.png" alt="Blind Valley">
+                        <div class="project-links">
+                            <a href="https://github.com/yigitcankzl/BBM103/tree/main/BBM103/pa4" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blind Valley</h3>
+                        <p class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Maze Solving</span>
+                            <span class="tag">Path Finding</span>
+                        </p>
+                        <p class="project-desc">Maze navigation challenge requiring path finding through a "blind" environment with limited visibility.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-more">
+                <button id="load-more" class="secondary-btn">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+                <p class="section-intro">Interested in working together? Feel free to reach out!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:kizilyigit33@hotmail.com">kizilyigit33@hotmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/yigitcankzl" target="_blank">github.com/yigitcankzl</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/yi%C4%9Fitcan-k%C4%B1z%C4%B1l-89a536211/" target="_blank">https://www.linkedin.com/in/yi%C4%9Fitcan-k%C4%B1z%C4%B1l-89a536211/</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">Yiğitcan Kızıl</div>
+                    <p>Creating meaningful solutions through technology</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <h3>Navigation</h3>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#education">Education</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    
+                    <div class="footer-social">
+                        <h3>Connect</h3>
+                        <a href="https://github.com/yigitcankzl" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/yi%C4%9Fitcan-k%C4%B1z%C4%B1l-89a536211/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="mailto:kizilyigit33@hotmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Yiğitcan Kızıl. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> in Türkiye</p>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async (e) => {
+            e.preventDefault(); // Prevent the default form submission
+
+            const form = e.target;
+            const formData = new FormData(form); // Get form data
+
+            try {
+                const response = await fetch('https://formspree.io/f/xnnjlary', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json',
+                    },
+                });
+
+                if (response.ok) {
+                    alert('Message sent successfully!'); // Show success message
+                    form.reset(); // Clear the form
+                } else {
+                    alert('Error sending message. Please try again.'); // Show error message
+                }
+            } catch (error) {
+                alert('Error sending message. Please try again.'); // Show error message
+            }
+        });
+
+        $(document).ready(function() {
+            // Sticky navbar
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 50) {
+                    $('.navbar').addClass('navbar-scrolled');
+                    $('.back-to-top').addClass('visible');
+                } else {
+                    $('.navbar').removeClass('navbar-scrolled');
+                    $('.back-to-top').removeClass('visible');
+                }
+            });
+            
+            // Mobile navigation toggle
+            $('.nav-toggle').click(function() {
+                $('.nav-links').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+            
+            // Smooth scrolling
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
+                
+                const target = $(this.getAttribute('href'));
+                
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - 70
+                    }, 500);
+                    
+                    // Close mobile menu if open
+                    $('.nav-links').removeClass('active');
+                    $('.nav-toggle').removeClass('active');
+                }
+            });
+            
+            // Active navigation highlighting
+            $(window).scroll(function() {
+                let position = $(this).scrollTop();
+                
+                $('section').each(function() {
+                    let target = $(this).offset().top - 200;
+                    let id = $(this).attr('id');
+                    
+                    if (position >= target) {
+                        $('.nav-item').removeClass('active');
+                        $('.nav-item[href="#' + id + '"]').addClass('active');
+                    }
+                });
+            });
+            
+            // Project filtering
+            $('.filter-btn').click(function() {
+                let filter = $(this).data('filter');
+                
+                $('.filter-btn').removeClass('active');
+                $(this).addClass('active');
+                
+                if (filter === 'all') {
+                    $('.project-card').show(300);
+                } else {
+                    $('.project-card').hide(300);
+                    $('.project-card[data-category="' + filter + '"]').show(300);
+                }
+            });
+            
+            // Load more projects functionality
+            let projectsToShow = 6;
+            let projectsIncrement = 3;
+            let $projects = $('.project-card');
+            
+            // Initially hide extra projects
+            if ($projects.length > projectsToShow) {
+                $projects.slice(projectsToShow).hide();
+            } else {
+                $('#load-more').hide();
+            }
+            
+            $('#load-more').click(function() {
+                projectsToShow += projectsIncrement;
+                $projects.slice(0, projectsToShow).show(300);
+                
+                if (projectsToShow >= $projects.length) {
+                    $(this).hide();
+                }
+            });
+            
+            // Section animations
+            function checkSections() {
+                const sections = document.querySelectorAll('section');
+                
+                sections.forEach(section => {
+                    const sectionTop = section.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (sectionTop < windowHeight * 0.75) {
+                        section.classList.add('active');
+                    }
+                });
+            }
+            
+            // Initial check and add scroll listener
+            checkSections();
+            $(window).scroll(checkSections);
+        });
+
+        // Theme Switcher
+        document.addEventListener('DOMContentLoaded', () => {
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        // Check saved theme
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            themeIcon.className = theme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+        }
+    });
+    </script>
+</body>
+</html>
